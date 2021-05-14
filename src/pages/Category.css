@@ -1,0 +1,26 @@
+#container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#dropdown-item-button{
+    background-color:blueviolet ;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    position:relative;
+    z-index: 1;
+}
+#dropdown-item-button:hover{
+    background-color: rgb(13, 13, 14);
+}
+#dropdown-item-button:focus,
+#dropdown-item-button:active{
+    outline: none;
+    box-shadow: none;
+}
+#card{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+}

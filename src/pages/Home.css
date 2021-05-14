@@ -1,0 +1,12 @@
+
+
+#fig{
+    padding: 5%;
+    width:100% ;
+}
+.caption{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    word-wrap: break-word;
+}

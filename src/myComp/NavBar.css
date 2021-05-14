@@ -1,0 +1,46 @@
+.header{
+    box-shadow: 0px 0px 10px 1px rgb(202, 199, 199);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+#toggle{
+    border: none;
+}
+#toggle:active,
+#toggle:focus{
+    outline:none;
+    box-shadow: none;
+}
+.item{
+    margin-right: 15px;
+}
+#logo{
+    font-weight: bolder;
+    color: rgb(132, 0, 255);
+}
+#home{
+    text-decoration: none;
+    color: grey;
+}
+#home:hover{
+    color: purple;
+    border-bottom: 2px solid blueviolet;
+    transition-delay: 0.2s;
+    font-weight: bold;
+    font-size:14px;
+    transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 800px) {
+    #home{
+        text-decoration: none;
+        color:teal;
+    }
+    .mr-auto{
+        margin-top: 10px;
+    }
+    #toggle{
+        font-size: 15px;
+    }
+}
